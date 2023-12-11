@@ -1,0 +1,22 @@
+Speedtest Library:
+
+La bibliothèque `speedtest` en Python permet de mesurer la vitesse d'une connexion Internet. Elle utilise l'infrastructure de Speedtest.net pour effectuer des tests de vitesse, notamment pour la mesure du débit descendant (download) et du débit montant (upload).
+
+`speedtest` Library Functions:
+
+1. `speedtest.Speedtest()`: Cette fonction crée un objet Speedtest qui est utilisé pour effectuer des tests de vitesse.
+
+2. `download()`: Cette fonction mesure et retourne le débit descendant en bits par seconde.
+
+3. `upload()`:Cette fonction mesure et retourne le débit montant en bits par seconde.
+
+`round()` Function:
+
+La fonction `round()` est une fonction intégrée en Python utilisée pour arrondir un nombre à un nombre spécifié de chiffres après la virgule. Dans le contexte du code fourni, elle est utilisée pour arrondir la vitesse de téléchargement et de téléversement à deux chiffres après la virgule avant de l'afficher.
+
+
+
+F-strings (formatted string literals):
+
+
+Les f-strings sont une fonctionnalité de Python introduite dans la version 3.6. Elles permettent de formater des chaînes de caractères de manière concise en intégrant des expressions Python directement dans la chaîne. L'utilisation de `{}` comme espace réservé permet d'insérer des variables ou des expressions dans la chaîne. Dans le code fourni, une f-string est utilisée pour formater la vitesse de téléchargement (download) avec l'unité "Mbps" (mégabits par seconde) avant de l'afficher.
